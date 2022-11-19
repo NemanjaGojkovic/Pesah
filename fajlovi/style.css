@@ -1,0 +1,101 @@
+
+body{
+    margin: 0;
+}
+
+
+.navbar{
+    margin: 0;
+    background-color: rgba(164, 86, 40, 0.8);
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 10px;
+    color: rgb(45, 17, 1);
+}
+
+
+
+.logoNavbar{
+    height: 56px;
+    width: 65px;
+}
+
+.navItem a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: linear 0.2s;
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.navItem .rec:hover {
+    font-size: 20px;
+    color: white;
+}
+
+
+.sredina::before{
+    opacity: 0.7;
+}
+
+.logoSredina{
+    height: 280px;
+    width: 326px;
+}
+
+.prviRed{
+    display: flex;
+    justify-content: center;
+}
+
+.drugiRed{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(45, 17, 1);
+    align-items: baseline;
+}
+
+
+.treciRed{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    color: rgb(45, 17, 1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+
+.footer{
+    background-color: rgba(164, 86, 40, 0.8);
+    color: white;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer li{
+    padding: 5px;
+}
+
+.kontakt{
+    display: flex;
+    align-items: center;
+}
+
+.slika-figure{
+    max-height: 255px;
+    max-width: 333px;
+    width: 100%;
+    height: auto;
+}
+
+
+
